@@ -61,7 +61,7 @@
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 
-                if (_VRChatCameraMode == 1 || _VRChatCameraMode == 2 && (!isVR() && _IsUserInVR == 1))
+                if (_VRChatCameraMode > 0 || (!isVR() && _IsUserInVR == 1.0))
                 {
                     o.vertex = float4(1E9, 1E9, 1E9, 1E9);
                 }
