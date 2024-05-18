@@ -55,15 +55,16 @@ An OSC camera system that moves a camera along a set path.
   * The Gestures to place points are as follows:
     * FingerPoint: Place
     * ThumbsUp: Next Point
-    * Victory: Previous Point
+    * RockNRoll: Previous Point
   * The ``Visualize`` setting shows you the points you've placed thus far. They won't be visible in the camera if you're in VR, but they might be visible in desktop when playing, so disable this before playing the track in desktop.
+  * The ``Preview`` settings shows the Desktop what the camera will see.
 * Once you're done placing points, you can set the play duration and some other values in the settings.
   * The ``Time Length`` is total time by default, but with the ``Time Per Point`` option, you can change how the spline is sampled and make each point take a certain amount of time instead. Note that this makes the playback speed up and slow down based on point distance.
   * ``Use B Spline`` uses a different spline which doesn't go directly through all points, but is smoother.
   * ``Wait time at end`` decides how long the system waits at the end of the path.
   * ``Loop`` decides whether the loop will restart after it's done.
   * ``Circle Mode`` changes the system to follow a circle instead, where the first point is the center, and the second point decides the radius and look direction.
-* After you're happy with the settings, you can enable the ``Enable`` toggle, which overrides the Desktop view with the view from the camera, like a stream camera, and then you can press ``Play Track``.
+* After you're happy with the settings you can press ``Play Track``, which starts the script sending the path and overriding the desktop view.
   * To cancel the playing track, you can press ``Play Track`` again.
 
 ## Performance stats

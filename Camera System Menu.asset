@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: CameraMenu
   m_EditorClassIdentifier: 
   controls:
-  - name: Enable
+  - name: Preview
     icon: {fileID: 0}
     type: 102
     parameter:
-      name: CameraSystem/Enabled
+      name: CameraSystem/Preview
     value: 1
     style: 0
     subMenu: {fileID: 0}

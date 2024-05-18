@@ -118,7 +118,7 @@ MonoBehaviour:
     saved: 1
     defaultValue: 1
     networkSynced: 0
-  - name: CameraSystem/Enabled
+  - name: CameraSystem/Preview
     valueType: 2
     saved: 1
     defaultValue: 0
