@@ -12,7 +12,7 @@
 
 An OSC camera system that moves a camera along a set path.
 
-[PREVIEW HERE]
+![Preview](https://github.com/VRLabs/CameraSystem/assets/76777936/449b1aed-32b8-4858-9885-3ade9a755ad7)
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Camera-System/releases/latest)
 
@@ -32,7 +32,7 @@ An OSC camera system that moves a camera along a set path.
 
 ## Install guide
 
-[INSTALL GUIDE HERE]
+https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a2e0d928bfeb
 
 * Merge the Animator Controller ``Camera System FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Merge the Expression Parameter List ``Camera Systme Parameters`` to your own Expression Parameter List, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
