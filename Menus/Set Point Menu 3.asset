@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Set Point Menu 3
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Select Point 15
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/PointIndex
+    value: 14
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Select Point 16
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/PointIndex
+    value: 15
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Select Point 17
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/PointIndex
+    value: 16
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Select Point 18
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/PointIndex
+    value: 17
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Select Point 19
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/PointIndex
+    value: 18
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Select Point 20
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/PointIndex
+    value: 19
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Select Point 21
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/PointIndex
+    value: 20
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Next Menu
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 7
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6c90331fc6fb8044db9d3f2694b7773f, type: 2}
+    subParameters: []
+    labels: []
