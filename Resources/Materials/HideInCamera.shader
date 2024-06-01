@@ -4,6 +4,7 @@
     {
         _MainTex ("Texture", 2D) = "white" {}
         _IsUserInVR ("Is User In VR", float) = 0
+        _CurrentIndex ("Current Index", float) = 0
     }
     
     SubShader
@@ -41,6 +42,7 @@
             UNITY_DECLARE_TEX2D(_MainTex);
             float4 _MainTex_ST;
             uniform float _VRChatCameraMode;
+            float _CurrentIndex;
             float _IsUserInVR;
             
             bool isVR() {
@@ -73,9 +75,21 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
-                fixed4 col = UNITY_SAMPLE_TEX2D(_MainTex, i.uv);
+                // Display number
+                fixed4 col;
+                if (i.uv.y < 0.7 && i.uv.y > 0.6 && i.uv.x > 0.0 && i.uv.x < 0.1)
+                {
+                    float2 offset = float2(i.uv.x % 0.1, i.uv.y % 0.1);
+                    int index = _CurrentIndex + 1;
+                    int x = index % 10;
+                    int y = 9 - (index / 10);
+                    float2 pos = float2(x, y) * 0.1 + offset;
+                    col = UNITY_SAMPLE_TEX2D(_MainTex, pos);
+                }else
+                {
+                    col = UNITY_SAMPLE_TEX2D(_MainTex, i.uv);
+                }
                 UNITY_APPLY_FOG(i.fogCoord, col);
-
                 return col;
             }
             ENDCG
