@@ -72,6 +72,8 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
   * Changing the default location of the Contact Receivers to the new max radius (except for their controlled axis),
   * Changing the weights in the Contact Receiver's Position Constraint to 1 - (3 / new Max Diameter), (3 / new Max Diameter),
   * And changing the animations in the `Resources/Animations/Output` folder to the new max radius. 
+* If the system isn't connecting (indicated by the Connected bool not being set to true), you can try resetting your osc config for this avatar and double checking OSC is enabled in your Circle Menu.
+
 ## Performance stats
 
 ```c++
