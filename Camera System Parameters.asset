@@ -15,7 +15,7 @@ MonoBehaviour:
   parameters:
   - name: CameraSystem/PointIndex
     valueType: 0
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 0
   - name: CameraSystem/SetPoint
@@ -30,17 +30,17 @@ MonoBehaviour:
     networkSynced: 0
   - name: CameraSystem/ResetAllPoints
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 0
   - name: CameraSystem/PlayTrack
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 0
   - name: CameraSystem/IsPlaying
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 0
   - name: CameraSystem/IsTimePerPoint
@@ -80,7 +80,7 @@ MonoBehaviour:
     networkSynced: 0
   - name: CameraSystem/Connected
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 0
   - name: CameraSystem/GestureType
@@ -125,6 +125,6 @@ MonoBehaviour:
     networkSynced: 0
   - name: CameraSystem/Preview
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 0
