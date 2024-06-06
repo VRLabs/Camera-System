@@ -35,7 +35,7 @@ An OSC camera system that moves a camera along a set path.
 https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a2e0d928bfeb
 
 * Merge the Animator Controller ``Camera System FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
-* Merge the Expression Parameter List ``Camera Systme Parameters`` to your own Expression Parameter List, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+* Merge the Expression Parameter List ``Camera System Parameters`` to your own Expression Parameter List, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Place the ``Camera System Menu`` somewhere in your avatar's Expression Menu.
 * Drag & drop the ``Camera System`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
@@ -51,7 +51,7 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
 * First, unpack CameraSystemScript.zip and place it somewhere ***THAT IS NOT IN YOUR UNITY PROJECT***.
 * Then, launch the CameraSystem.exe from within this folder by double clicking it. You should now see a Camera symbol in your system tray. This is also how you can close the program through right clicking the Camera symbol.
 * Now, in VRChat, when you load into the avatar, you should see the Connected bool set to true.
-  * If the system isn't connecting, you can try resetting your osc config for this avatar and double checking OSC is enabled in your Circle Menu.
+  * If the system isn't connecting, you can try resetting your osc config for this avatar and double checking OSC is enabled in your Radial Menu.
 * Then you can start placing points. You can do this by selecting which point to place using the ``Point Select Menu`` and placingit using ``Set Selected Point``, or by going into the settings and enabling Gestures.
   * The Gestures to place points are as follows:
     * FingerPoint: Place
