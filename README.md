@@ -51,6 +51,7 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
 * First, unpack CameraSystemScript.zip and place it somewhere ***THAT IS NOT IN YOUR UNITY PROJECT***.
 * Then, launch the CameraSystem.exe from within this folder by double clicking it. You should now see a Camera symbol in your system tray. This is also how you can close the program through right clicking the Camera symbol.
 * Now, in VRChat, when you load into the avatar, you should see the Connected bool set to true.
+  * If the system isn't connecting, you can try resetting your osc config for this avatar and double checking OSC is enabled in your Circle Menu.
 * Then you can start placing points. You can do this by selecting which point to place using the ``Point Select Menu`` and placingit using ``Set Selected Point``, or by going into the settings and enabling Gestures.
   * The Gestures to place points are as follows:
     * FingerPoint: Place
@@ -72,7 +73,6 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
   * Changing the default location of the Contact Receivers to the new max radius (except for their controlled axis),
   * Changing the weights in the Contact Receiver's Position Constraint to 1 - (3 / new Max Diameter), (3 / new Max Diameter),
   * And changing the animations in the `Resources/Animations/Output` folder to the new max radius. 
-* If the system isn't connecting (indicated by the Connected bool not being set to true), you can try resetting your osc config for this avatar and double checking OSC is enabled in your Circle Menu.
 
 ## Performance stats
 
