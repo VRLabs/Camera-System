@@ -66,7 +66,11 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
   * ``Circle Mode`` changes the system to follow a circle instead, where the first point is the center, and the second point decides the radius and look direction.
 * After you're happy with the settings you can press ``Play Track``, which starts the script sending the path and overriding the desktop view.
   * To cancel the playing track, you can press ``Play Track`` again.
-
+* Right now, the range is limited to 500m from the origin, but this can be changed in by:
+  * Changing the default location of the Contact Sender to the new max radius,
+  * Changing the default location of the Contact Receivers to the new max radius (except for their controlled axis),
+  * Changing the weights in the Contact Receiver's Position Constraint to 1 - (3 / new Max Diameter), (3 / new Max Diameter),
+  * And changing the animations in the `Resources/Animations/Output` folder to the new max radius. 
 ## Performance stats
 
 ```c++
