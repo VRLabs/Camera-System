@@ -59,11 +59,13 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
     * RockNRoll: Previous Point
   * The ``Visualize`` setting shows you the points you've placed thus far. They won't be visible in the camera if you're in VR, but they might be visible in desktop when playing, so disable this before playing the track in desktop.
   * The ``Preview`` settings shows the Desktop what the camera will see.
+    * This setting is disabled in Desktop mode, since it can softlock the user and not show Menus.
 * Once you're done placing points, you can set the play duration and some other values in the settings.
   * The ``Time Length`` is total time by default, but with the ``Time Per Point`` option, you can change how the spline is sampled and make each point take a certain amount of time instead. Note that this makes the playback speed up and slow down based on point distance.
   * ``Use B Spline`` uses a different spline which doesn't go directly through all points, but is smoother.
   * ``Wait time at end`` decides how long the system waits at the end of the path.
   * ``Loop`` decides whether the loop will restart after it's done.
+    * This setting is disabled in Desktop mode, since it can softlock the user and not show Menus.
   * ``Circle Mode`` changes the system to follow a circle instead, where the first point is the center, and the second point decides the radius and look direction.
   * ``Closed Loop`` changes the system to follow a closed loop instead, so it seamlessly loops back to the first point.
 * After you're happy with the settings you can press ``Play Track``, which starts the script sending the path and overriding the desktop view.
