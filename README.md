@@ -64,6 +64,7 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
   * ``Wait time at end`` decides how long the system waits at the end of the path.
   * ``Loop`` decides whether the loop will restart after it's done.
   * ``Circle Mode`` changes the system to follow a circle instead, where the first point is the center, and the second point decides the radius and look direction.
+  * ``Closed Loop`` changes the system to follow a closed loop instead, so it seamlessly loops back to the first point.
 * After you're happy with the settings you can press ``Play Track``, which starts the script sending the path and overriding the desktop view.
   * To cancel the playing track, you can press ``Play Track`` again.
 * Right now, the range is limited to 500m from the origin, but this can be changed in by:

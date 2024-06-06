@@ -68,6 +68,11 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 0
+  - name: CameraSystem/ClosedLoop
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
   - name: CameraSystem/ErrorCode
     valueType: 0
     saved: 0
