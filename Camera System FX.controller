@@ -36370,7 +36370,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0.5
   - m_ConditionMode: 4
     m_ConditionEvent: CameraSystem/PointIndex
-    m_EventTreshold: 29
+    m_EventTreshold: 28
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4908303776014194555}
   m_Solo: 0
@@ -60616,7 +60616,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0.5
   - m_ConditionMode: 4
     m_ConditionEvent: CameraSystem/PointIndex
-    m_EventTreshold: 29
+    m_EventTreshold: 28
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6911662011960192474}
   m_Solo: 0
