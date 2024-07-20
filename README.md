@@ -10,12 +10,11 @@
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
 [![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
 
-An OSC camera system that moves a camera along a set path.
+An OSC camera system that moves a camera along a set path
 
 ![Preview](https://github.com/VRLabs/CameraSystem/assets/76777936/449b1aed-32b8-4858-9885-3ade9a755ad7)
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Camera-System/releases/latest)
-
 
 ### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.camera-system)
 
@@ -45,6 +44,7 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
 * Note: If you are on the VRC Constraints beta, you will have to use the auto conversion tool to convert the constraints to the new VRC Constraint component to remove jitter.
 
 ### Alternative Camera Systems
+
 * To use alternative systems like VRCLens, parent constrain their cameras to the Camera object, and remove the Camera Component the system comes with by default.
 
 ## How to use
@@ -75,7 +75,7 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
   * Changing the default location of the Contact Sender to the new max radius,
   * Changing the default location of the Contact Receivers to the new max radius (except for their controlled axis),
   * Changing the weights in the Contact Receiver's Position Constraint to 1 - (3 / new Max Diameter), (3 / new Max Diameter),
-  * And changing the animations in the `Resources/Animations/Output` folder to the new max radius. 
+  * And changing the animations in the `Resources/Animations/Output` folder to the new max radius.
 
 ## Performance stats
 
@@ -205,4 +205,3 @@ Camera System is available as-is under MIT. For more information see [LICENSE](h
 [<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
 
 </div>
-
