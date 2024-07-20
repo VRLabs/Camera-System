@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Camera System Parameters
+  m_EditorClassIdentifier: 
+  parameters:
+  - name: CameraSystem/PointIndex
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/SetPoint
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/TotalTimeLength
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/ResetAllPoints
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/PlayTrack
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/IsPlaying
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/IsTimePerPoint
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/WaitTime
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/UseBSpline
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Loop
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/CircleMode
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/ClosedLoop
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/ErrorCode
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Connected
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/GestureType
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Receive/XRotation
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Receive/YRotation
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Receive/ZRotation
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Receive/XPosition
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Receive/YPosition
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Receive/ZPosition
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CameraSystem/Visualize
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+    networkSynced: 0
+  - name: CameraSystem/Preview
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
