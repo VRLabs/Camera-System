@@ -42,6 +42,7 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
 * Place the ``Target`` object under the transform you'll be using to place the points (E.G. your right hand).
 * Position the Target object until it is set correctly according to the ``DELETE ME AFTER PLACEMENT`` object, then delete said object.
 * Note: Due to the use of OSCQuery, this script can not be tested in the Editor.
+* Note: If you are on the VRC Constraints beta, you will have to use the auto conversion tool to convert the constraints to the new VRC Constraint component to remove jitter.
 
 ### Alternative Camera Systems
 * To use alternative systems like VRCLens, parent constrain their cameras to the Camera object, and remove the Camera Component the system comes with by default.
