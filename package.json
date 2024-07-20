@@ -1,0 +1,28 @@
+{
+  "name": "dev.vrlabs.camera-system",
+  "displayName": "Camera System",
+  "version": "1.0.999",
+  "license": "MIT",
+  "unity": "2019.4",
+  "description": "An OSC camera system that moves a camera along a set path.",
+  "author": {
+    "name": "VRLabs",
+    "email": "mail@vrlabs.dev",
+    "url": "https://vrlabs.dev"
+  },
+  "siteUrl": "https://github.com/VRLabs/Camera-System",
+  "vpmDependencies": {
+    "dev.vrlabs.instancer": ">=1.0.2"
+  },
+  "legacyFolders": {},
+  "unityPackageDestinationFolder": "Assets/VRLabs/Camera-System",
+  "vccRepoCategory": "systems",
+  "media": {
+    "previewImage": "https://raw.githubusercontent.com/VRLabs/Camera-System/main/Media/Web/Preview.webp",
+    "previewGif": "https://raw.githubusercontent.com/VRLabs/Camera-System/main/Media/Web/PreviewGif.webp"
+  },
+  "unityPackageDestinationFolderMetas": {
+    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+    "Assets/VRLabs/Camera-System": "b484069a7250d6c4b87235fd74bfbafb"
+  }
+}

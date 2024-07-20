@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Camera System Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Preview
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/Preview
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Point Select Menu
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 99a9f0496a0503c40bfc6f955656a599, type: 2}
+    subParameters: []
+    labels: []
+  - name: Set Selected Point
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: CameraSystem/SetPoint
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Settings
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 177e06e38c2dc1c4d9c4a186f6ffd2e2, type: 2}
+    subParameters: []
+    labels: []
+  - name: Play Track
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: CameraSystem/PlayTrack
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Reset All Points
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: CameraSystem/ResetAllPoints
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Visualize
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/Visualize
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Connection Status
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CameraSystem/Connected
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
