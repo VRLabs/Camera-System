@@ -3,7 +3,7 @@
   "displayName": "Camera System",
   "version": "1.0.999",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3",
   "description": "An OSC camera system that moves a camera along a set path.",
   "author": {
     "name": "VRLabs",
@@ -24,5 +24,6 @@
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/Camera-System": "b484069a7250d6c4b87235fd74bfbafb"
-  }
+  },
+  "questCompatibility": "none"
 }
