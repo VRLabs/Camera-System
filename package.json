@@ -12,7 +12,8 @@
   },
   "siteUrl": "https://github.com/VRLabs/Camera-System",
   "vpmDependencies": {
-    "dev.vrlabs.instancer": ">=1.0.2"
+    "dev.vrlabs.instancer": ">=1.0.2",
+    "com.vrchat.avatars": "^3.7.0"
   },
   "legacyFolders": {},
   "unityPackageDestinationFolder": "Assets/VRLabs/Camera-System",
