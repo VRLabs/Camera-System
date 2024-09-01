@@ -4,7 +4,8 @@
 
 [![Generic badge](https://img.shields.io/github/downloads/VRLabs/Camera-System/total?label=Downloads)](https://github.com/VRLabs/Camera-System/releases/latest)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Camera-System/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/Quest-Incompatible-red?logo=Meta)](https://img.shields.io/badge/Quest-Incompatible-red?logo=Meta)
+[![Generic badge](https://img.shields.io/badge/Unity-2022.3.22f1-lightblue?logo=Unity)](https://unity.com/releases/editor/whats-new/2022.3.22)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
 
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
@@ -41,7 +42,6 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
 * Place the ``Target`` object under the transform you'll be using to place the points (E.G. your right hand).
 * Position the Target object until it is set correctly according to the ``DELETE ME AFTER PLACEMENT`` object, then delete said object.
 * Note: Due to the use of OSCQuery, this script can not be tested in the Editor.
-* Note: If you are on the VRC Constraints beta, you will have to use the auto conversion tool to convert the constraints to the new VRC Constraint component to remove jitter.
 
 ### Alternative Camera Systems
 
@@ -82,6 +82,7 @@ https://github.com/VRLabs/CameraSystem/assets/76777936/42e730c4-f8c9-4a8d-b2e6-a
 ```c++
 Cameras:                1
 Constraints:            41
+Constraint Depth:       35
 Contact Senders:        1
 Contact Receivers:      3
 FX Animator Layers:     4
